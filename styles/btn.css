@@ -1,0 +1,18 @@
+div {
+  display: flex;
+}
+h1 {
+  color: white;
+  font-family: Verdana;
+  font-size: 42px;
+  background-size:300%;
+  padding:25px;
+  border-radius:25px;
+  background-image: linear-gradient(to left, #0300ad 50%, #b4b4c2 100%); 
+  transition: .3s ease;
+  cursor: pointer;
+}
+h1:hover {
+  background-position: 50%;
+  color: #b4b4c2;
+}
